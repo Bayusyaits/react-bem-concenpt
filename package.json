@@ -1,0 +1,55 @@
+{
+    "name": "react-bem-concept",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite --port 5755",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^6.2.1",
+        "@fortawesome/free-regular-svg-icons": "^6.2.1",
+        "@fortawesome/free-solid-svg-icons": "^6.2.1",
+        "@fortawesome/react-fontawesome": "^0.2.0",
+        "@hookform/resolvers": "^2.9.7",
+        "dotenv": "^16.0.3",
+        "immer": "^9.0.17",
+        "lodash.merge": "^4.6.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-hook-form": "^7.34.2",
+        "react-router": "^5.2.0",
+        "react-router-dom": "^6.6.2",
+        "styled-components": "^5.3.6",
+        "yarn": "^1.22.19",
+        "yup": "^0.32.11",
+        "zustand": "^4.2.0"
+    },
+    "devDependencies": {
+        "@types/lodash.clonedeep": "^4.5.7",
+        "@types/lodash.merge": "^4.6.7",
+        "@types/node": "^18.11.18",
+        "@types/react": "^18.0.26",
+        "@types/react-dom": "^18.0.10",
+        "@types/styled-components": "^5.1.26",
+        "@vitejs/plugin-react": "^3.0.0",
+        "lodash.clonedeep": "^4.5.0",
+        "typescript": "^4.9.3",
+        "vite": "^4.0.4",
+        "vite-tsconfig-paths": "^4.0.3"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
